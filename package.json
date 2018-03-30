@@ -1,0 +1,32 @@
+{
+    "name": "jwks-verify",
+    "version": "0.0.1",
+    "description": "",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "build": "tsc -p ./tsconfig.json && npm pack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/async": "^2.0.48",
+        "@types/express": "^4.11.1",
+        "@types/jsonwebtoken": "^7.2.6",
+        "@types/node-rsa": "^0.4.3",
+        "@types/request": "^2.47.0",
+        "@types/url-join": "^0.8.2",
+        "async": "^2.6.0",
+        "jsonwebtoken": "^8.2.0",
+        "node-rsa": "^0.4.2",
+        "request": "^2.85.0",
+        "url-join": "^4.0.0",
+        "x509.js": "^1.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^9.4.7",
+        "ts-node": "^3.3.0",
+        "typescript": "^2.4.2"
+    }
+}
