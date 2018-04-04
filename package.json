@@ -5,7 +5,7 @@
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "scripts": {
-        "build": "tsc -p ./tsconfig.json && npm pack"
+        "build": "tsc -p ./tsconfig.json"
     },
     "keywords": [],
     "author": "",
