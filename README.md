@@ -1,8 +1,6 @@
 # Express middleware for JWT verification
 
 
-Written on Typescript and can be used only in a Typescript project at the moment.
-
 ## Usage 
 
 ```javascript
