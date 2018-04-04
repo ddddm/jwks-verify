@@ -12,7 +12,7 @@ const jwksVerifyMiddleware = require('jwks-verify');
 ...
 app.use(jwksVerifyMiddleware(
   {
-    issuer: "token issuer host, ex. https://auth.example.com"
+    issuer: "token issuer host" // ex.  https://auth.example.com
   }
 ));
 ```
